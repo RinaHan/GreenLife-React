@@ -1,0 +1,18 @@
+#picid1 .first {
+    background-color: rgb(252, 223, 59);
+}
+#picid1 .second {
+    background-color: rgb(252, 175, 59);
+}
+#picid1 .third {
+    background-color: rgb(252, 130, 59);
+}
+#picid1 .first:hover {
+    background-color: rgb(224, 197, 43);
+}
+#picid1 .second:hover {
+    background-color: rgb(207, 138, 34);
+}
+#picid1 .third:hover {
+    background-color: rgb(216, 97, 41);
+}

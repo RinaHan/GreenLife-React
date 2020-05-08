@@ -258,25 +258,86 @@ module.exports = "/_next/static/images/logo-bf25e4dd1a962978fccac319cec6278e.png
 
 /***/ }),
 
+/***/ "./comps/HomeLogo1/homelogo.css":
+/*!**************************************!*\
+  !*** ./comps/HomeLogo1/homelogo.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./comps/HomeLogo1/homelogo.png":
+/*!**************************************!*\
+  !*** ./comps/HomeLogo1/homelogo.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/homelogo-102f9cdba1287b24a53357556e04d86c.png";
+
+/***/ }),
+
 /***/ "./comps/HomeLogo1/index.js":
 /*!**********************************!*\
   !*** ./comps/HomeLogo1/index.js ***!
   \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// import React from 'react';
-// import './homelogo.css';
-// const homelogoimg = require('./homelogo.png')
-// const HomeLogo = ({ }) =>
-//     <div id="whole">
-//         <div></div>
-//         <div id="homeimage"><img id="homelogoimage" src={homelogoimg} /></div>
-//     </div>;
-// // ResultImage.defaultProps = {
-// //     profpic:defaultProfPic,
-// // }
-// export default HomeLogo;
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _homelogo_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./homelogo.css */ "./comps/HomeLogo1/homelogo.css");
+/* harmony import */ var _homelogo_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_homelogo_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/rina/GreenLife/comps/HomeLogo1/index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const homelogoimg = __webpack_require__(/*! ./homelogo.png */ "./comps/HomeLogo1/homelogo.png");
+
+const HomeLogo1 = ({}) => __jsx("div", {
+  id: "whole",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 5
+  }
+}, __jsx("div", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 9
+  }
+}), __jsx("div", {
+  id: "homeimage",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 9
+  }
+}, __jsx("img", {
+  id: "homelogoimage",
+  src: homelogoimg,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 29
+  }
+}))); // ResultImage.defaultProps = {
+//     profpic:defaultProfPic,
+// }
+
+
+/* harmony default export */ __webpack_exports__["default"] = (HomeLogo1);
 
 /***/ }),
 
@@ -2258,7 +2319,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _comps_HomeLogo1__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../comps/HomeLogo1 */ "./comps/HomeLogo1/index.js");
-/* harmony import */ var _comps_HomeLogo1__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_comps_HomeLogo1__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _comps_HomeText__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../comps/HomeText */ "./comps/HomeText/index.js");
 /* harmony import */ var _comps_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../comps/Header */ "./comps/Header/index.js");
 /* harmony import */ var _comps_Button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../comps/Button */ "./comps/Button/index.js");
@@ -2289,7 +2349,7 @@ const HomePage = ({}) => __jsx("div", {
     lineNumber: 11,
     columnNumber: 9
   }
-}), __jsx(_comps_HomeLogo1__WEBPACK_IMPORTED_MODULE_2___default.a, {
+}), __jsx(_comps_HomeLogo1__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,

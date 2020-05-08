@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../comps/Header';
-import HomeLogo from '../comps/HomeLogo';
+import HomeLogo1 from '../comps/HomeLogo1';
 import Button from '../comps/Button';
 import HomeText from '../comps/HomeText';
 import Question1 from '../comps/Question1';
@@ -27,9 +27,9 @@ export const Headerr = () =>
         <Header />
     </div>
 
-export const HomeLogoo = () =>
+export const HomeLogo1o = () =>
     <div>
-        <HomeLogo />
+        <HomeLogo1 />
     </div>
 
 export const HomeTextt = () =>

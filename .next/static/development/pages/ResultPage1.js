@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/HomePage.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/ResultPage1.js"],{
 
 /***/ "./comps/Button/index.js":
 /*!*******************************!*\
@@ -133,132 +133,144 @@ module.exports = "/_next/static/images/logo-bf25e4dd1a962978fccac319cec6278e.png
 
 /***/ }),
 
-/***/ "./comps/HomeLogo1/homelogo.png":
-/*!**************************************!*\
-  !*** ./comps/HomeLogo1/homelogo.png ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/homelogo-102f9cdba1287b24a53357556e04d86c.png";
-
-/***/ }),
-
-/***/ "./comps/HomeLogo1/index.js":
-/*!**********************************!*\
-  !*** ./comps/HomeLogo1/index.js ***!
-  \**********************************/
+/***/ "./comps/ResultExplanation1/index.js":
+/*!*******************************************!*\
+  !*** ./comps/ResultExplanation1/index.js ***!
+  \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectDestructuringEmpty */ "./node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _homelogo_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./homelogo.css */ "./comps/HomeLogo1/homelogo.css");
-/* harmony import */ var _homelogo_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_homelogo_css__WEBPACK_IMPORTED_MODULE_2__);
-
-
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _resultexplanation1_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resultexplanation1.css */ "./comps/ResultExplanation1/resultexplanation1.css");
+/* harmony import */ var _resultexplanation1_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_resultexplanation1_css__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/rina/GreenLife/comps/HomeLogo1/index.js";
+    _jsxFileName = "/Users/rina/GreenLife/comps/ResultExplanation1/index.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var homelogoimg = __webpack_require__(/*! ./homelogo.png */ "./comps/HomeLogo1/homelogo.png");
-
-var HomeLogo1 = function HomeLogo1(_ref) {
-  Object(_babel_runtime_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
-
+var ResultExplanation1 = function ResultExplanation1(_ref) {
+  var text = _ref.text;
   return __jsx("div", {
-    id: "whole",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 9
-    }
-  }), __jsx("div", {
-    id: "homeimage",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 9
-    }
-  }, __jsx("img", {
-    id: "homelogoimage",
-    src: homelogoimg,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 29
-    }
-  })));
-}; // ResultImage.defaultProps = {
-//     profpic:defaultProfPic,
-// }
-
-
-/* harmony default export */ __webpack_exports__["default"] = (HomeLogo1);
-
-/***/ }),
-
-/***/ "./comps/HomeText/index.js":
-/*!*********************************!*\
-  !*** ./comps/HomeText/index.js ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectDestructuringEmpty */ "./node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-
-
-var _this = undefined,
-    _jsxFileName = "/Users/rina/GreenLife/comps/HomeText/index.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-var HomeText = function HomeText(_ref) {
-  Object(_babel_runtime_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
-
-  return __jsx("div", {
-    id: "whole",
+    id: "resultexplanationtext",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5,
       columnNumber: 5
     }
-  }, __jsx("div", {
-    id: "hometext",
+  }, text);
+};
+
+ResultExplanation1.defaultProps = {
+  text: "imtirediwanttorestilikemeilikecanada"
+};
+/* harmony default export */ __webpack_exports__["default"] = (ResultExplanation1);
+
+/***/ }),
+
+/***/ "./comps/ResultImage1/face1.png":
+/*!**************************************!*\
+  !*** ./comps/ResultImage1/face1.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/face1-f7f59444a2859dd4d60475a0bd24d8d0.png";
+
+/***/ }),
+
+/***/ "./comps/ResultImage1/index.js":
+/*!*************************************!*\
+  !*** ./comps/ResultImage1/index.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _resultimage1_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resultimage1.css */ "./comps/ResultImage1/resultimage1.css");
+/* harmony import */ var _resultimage1_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_resultimage1_css__WEBPACK_IMPORTED_MODULE_1__);
+var _this = undefined,
+    _jsxFileName = "/Users/rina/GreenLife/comps/ResultImage1/index.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var defaultProfPic = __webpack_require__(/*! ./face1.png */ "./comps/ResultImage1/face1.png");
+
+var ResultImage1 = function ResultImage1(_ref) {
+  var profpic = _ref.profpic;
+  return __jsx("div", {
+    id: "resultimage",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 5
+    }
+  }, __jsx("img", {
+    src: profpic,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 27
+    }
+  }));
+};
+
+ResultImage1.defaultProps = {
+  profpic: defaultProfPic
+};
+/* harmony default export */ __webpack_exports__["default"] = (ResultImage1);
+
+/***/ }),
+
+/***/ "./comps/ResultTitle/index.js":
+/*!************************************!*\
+  !*** ./comps/ResultTitle/index.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _resulttitle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resulttitle.css */ "./comps/ResultTitle/resulttitle.css");
+/* harmony import */ var _resulttitle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_resulttitle_css__WEBPACK_IMPORTED_MODULE_1__);
+var _this = undefined,
+    _jsxFileName = "/Users/rina/GreenLife/comps/ResultTitle/index.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var ResultTitle = function ResultTitle(_ref) {
+  var text = _ref.text;
+  return __jsx("div", {
+    id: "resulttitle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
-      columnNumber: 9
+      columnNumber: 5
     }
-  }, "GreenLife will calculate your daily carbon footprint based onyour food, transportation and clothing"));
-}; // Home.defaultProps = {
-// }
+  }, text);
+};
 
-
-/* harmony default export */ __webpack_exports__["default"] = (HomeText);
+ResultTitle.defaultProps = {
+  text: "Based on your results.."
+};
+/* harmony default export */ __webpack_exports__["default"] = (ResultTitle);
 
 /***/ }),
 
@@ -412,21 +424,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FHomePage&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FHomePage%2Findex.js!./":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FHomePage&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FHomePage%2Findex.js ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FResultPage1&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FResultPage1%2Findex.js!./":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FResultPage1&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FResultPage1%2Findex.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/HomePage", function() {
-      var mod = __webpack_require__(/*! ./pages/HomePage/index.js */ "./pages/HomePage/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/ResultPage1", function() {
+      var mod = __webpack_require__(/*! ./pages/ResultPage1/index.js */ "./pages/ResultPage1/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/HomePage/index.js */ "./pages/HomePage/index.js", function() {
-          if(!next.router.components["/HomePage"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/HomePage/index.js */ "./pages/HomePage/index.js")
-          next.router.update("/HomePage", updatedPage)
+        module.hot.accept(/*! ./pages/ResultPage1/index.js */ "./pages/ResultPage1/index.js", function() {
+          if(!next.router.components["/ResultPage1"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/ResultPage1/index.js */ "./pages/ResultPage1/index.js")
+          next.router.update("/ResultPage1", updatedPage)
         })
       }
       return mod
@@ -4786,112 +4798,120 @@ try {
 
 /***/ }),
 
-/***/ "./pages/HomePage/index.js":
-/*!*********************************!*\
-  !*** ./pages/HomePage/index.js ***!
-  \*********************************/
+/***/ "./pages/ResultPage1/index.js":
+/*!************************************!*\
+  !*** ./pages/ResultPage1/index.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectDestructuringEmpty */ "./node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _comps_HomeLogo1__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../comps/HomeLogo1 */ "./comps/HomeLogo1/index.js");
-/* harmony import */ var _comps_HomeText__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../comps/HomeText */ "./comps/HomeText/index.js");
-/* harmony import */ var _comps_Header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../comps/Header */ "./comps/Header/index.js");
-/* harmony import */ var _comps_Button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../comps/Button */ "./comps/Button/index.js");
-/* harmony import */ var _page1_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./page1.css */ "./pages/HomePage/page1.css");
-/* harmony import */ var _page1_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_page1_css__WEBPACK_IMPORTED_MODULE_7__);
-
-
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _comps_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../comps/Header */ "./comps/Header/index.js");
+/* harmony import */ var _comps_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../comps/Button */ "./comps/Button/index.js");
+/* harmony import */ var _comps_ResultTitle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../comps/ResultTitle */ "./comps/ResultTitle/index.js");
+/* harmony import */ var _comps_ResultImage1__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../comps/ResultImage1 */ "./comps/ResultImage1/index.js");
+/* harmony import */ var _comps_ResultExplanation1__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../comps/ResultExplanation1 */ "./comps/ResultExplanation1/index.js");
+/* harmony import */ var _HomePage_page1_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../HomePage/page1.css */ "./pages/HomePage/page1.css");
+/* harmony import */ var _HomePage_page1_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_HomePage_page1_css__WEBPACK_IMPORTED_MODULE_7__);
 var _this = undefined,
-    _jsxFileName = "/Users/rina/GreenLife/pages/HomePage/index.js";
+    _jsxFileName = "/Users/rina/GreenLife/pages/ResultPage1/index.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
 
 
-var HomePage = function HomePage(_ref) {
-  Object(_babel_runtime_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
 
+
+
+var picToShow = __webpack_require__(/*! ../../comps/ResultImage1/face1.png */ "./comps/ResultImage1/face1.png");
+
+var ResultPage1 = function ResultPage1(_ref) {
+  var profpic = _ref.profpic;
   return __jsx("div", {
-    id: "homeapp",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 1
-    }
-  }, __jsx(_comps_Header__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
-    }
-  }), __jsx(_comps_HomeLogo1__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 9
-    }
-  }), __jsx(_comps_HomeText__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    id: "app",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx(_comps_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
       columnNumber: 9
     }
-  }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/QuestionPage1",
+  }), __jsx(_comps_ResultTitle__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
       columnNumber: 9
     }
-  }, __jsx("div", {
-    "class": "homebutton",
+  }), __jsx(_comps_ResultImage1__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 9
     }
-  }, __jsx(_comps_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    width: "220px",
-    text: "Let's start",
+  }), __jsx("div", {
+    "class": "resultbox",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17,
+      columnNumber: 9
+    }
+  }, __jsx(_comps_ResultExplanation1__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    text: "Sorry, you contribute to the creation of environmental pollutants. -  but don't worry. We have some tips to improve. Check tips to improve! ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
       columnNumber: 13
     }
-  }))));
+  })), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/TipPage1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 9
+    }
+  }, __jsx(_comps_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    width: "190px",
+    text: "Check Tips",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 13
+    }
+  })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (HomePage);
+/* harmony default export */ __webpack_exports__["default"] = (ResultPage1);
 
 /***/ }),
 
-/***/ 3:
-/*!**********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2FHomePage&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FHomePage%2Findex.js ***!
-  \**********************************************************************************************************************************/
+/***/ 17:
+/*!****************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2FResultPage1&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FResultPage1%2Findex.js ***!
+  \****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FHomePage&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FHomePage%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FHomePage&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FHomePage%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FResultPage1&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FResultPage1%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FResultPage1&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FResultPage1%2Findex.js!./");
 
 
 /***/ }),
@@ -4907,5 +4927,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=HomePage.js.map
+},[[17,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=ResultPage1.js.map

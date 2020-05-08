@@ -1,13 +1,56 @@
-#homelogoimage{
-    /* background-image: url(logo.png); */
+#whole{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#picid3 .iconback {
+     border-radius: 10px;
+     padding: 0 0 0px 0;
     width: 100px;
-    height: 100px;
-    background-size: contain;
-    position: relative;;
-    top: 80px;
-    /* background-color: rgb(197, 252, 172); */
+    height: 90px;
+    cursor: pointer;
+}
+#picid3 > div{
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#picid3 img{
+    width: 50px;
+    height: auto;
+}
+.text{
+    font-size: 17px;
+}
+#questiontext{
+    height: 50px;
+    font-size: 20px;
 }
 
+#picid3 .first {
+    background-color: rgb(253, 223, 179);
+}
+#picid3 .second {
+    background-color: rgb(250, 196, 116);
+}
+#picid3 .third {
+    background-color: rgb(250, 143, 56);
+}
+#picid3 .first:hover {
+    background-color: rgb(233, 204, 160);
+}
+#picid3 .second:hover {
+    background-color: rgb(230, 177, 97);
+}
+#picid3 .third:hover {
+    background-color:  rgb(228, 121, 33);
+}
 #header{
     width: 360px;
     height: 80px;
@@ -40,6 +83,22 @@
     /* color: white; */
 }
 
+#resulttitle{
+    font-size: 30px;
+    margin: 40px 0px 20px;
+}
+#resultimage img{
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    margin-top: 50px;
+}
+#resultexplanationtext{
+    text-align: center;
+    width: 260px;
+    font-size: 18px;
+    margin: 50px 0px ;
+}
 #homeapp{
     width: 360px;
     height: 710px;

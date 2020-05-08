@@ -7,13 +7,13 @@ import Question1 from '../comps/Question1';
 import Question2 from '../comps/Question2';
 import Question3 from '../comps/Question3';
 import ResultTitle from '../comps/ResultTitle';
-import ResultImage from '../comps/ResultImage';
+import ResultImage1 from '../comps/ResultImage1';
 import './qpages.css';
-import ResultExplanation from '../comps/ResultExplanation';
-import TipsIcons from '../comps/TipIcons1';
-import FoodTip from '../comps/FoodTip';
-import ClothingTip from '../comps/ClothingTip';
-import TransportationTip from '../comps/TransportationTip';
+import ResultExplanation1 from '../comps/ResultExplanation1';
+import TipsIcons1 from '../comps/TipsIcons1';
+import FoodTip1 from '../comps/FoodTip1';
+import ClothingTip1 from '../comps/ClothingTip1';
+import TransportationTip1 from '../comps/TransportationTip1';
 
 
 
@@ -70,32 +70,32 @@ export const ResultTitlee = () =>
     <ResultTitle />
 </div>
 
-export const ResultImagee = () =>
+export const ResultImage1e = () =>
 <div>
-    <ResultImage />
+    <ResultImage1 />
 </div>
 
-export const ResultExplanationn = () =>
+export const ResultExplanation1n = () =>
 <div>
-    <ResultExplanation />
+    <ResultExplanation1 />
 </div>
 
-export const TipsIconss = () =>
+export const TipsIcons1s = () =>
 <div>
-    <TipsIcons />
+    <TipsIcons1 />
 </div>
 
-export const FoodTipp = () =>
+export const FoodTip1p = () =>
 <div>
-    <FoodTip />
+    <FoodTip1 />
 </div>
 
-export const ClothingTipp = () =>
+export const ClothingTip1p = () =>
 <div>
-    <ClothingTip />
+    <ClothingTip1 />
 </div>
 
-export const TransportationTipp = () =>
+export const TransportationTip1p = () =>
 <div>
-    <TransportationTip />
+    <TransportationTip1 />
 </div>

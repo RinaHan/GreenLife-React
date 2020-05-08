@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
 import ResultTitle from '../../comps/ResultTitle';
-import TipsIcons1 from '../../comps/TipIcons1';
+import TipsIcons1 from '../../comps/TipsIcons1';
 import '../HomePage/page1.css';
 
 const TipPage1 = ({ }) =>
@@ -16,7 +16,7 @@ const TipPage1 = ({ }) =>
           text="Choose Tips!"/>
           </div>
         <TipsIcons1/>
-        <Link href="/ResultPage">
+        <Link href="/ResultPage1">
         <div class="tipbutton">
             <Button
                 width="220px"

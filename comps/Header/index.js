@@ -3,10 +3,10 @@ import './header.css';
 
 const logopic = require('./logo.png')
 
-const Header = ({}) =>
+const Header = ({ }) =>
     <div id="header">
         <div id="headerlogo">
-            <img id="logoimg" src={logopic}/>
+            <img id="logoimg" src={logopic} />
         </div>
     </div>;
 

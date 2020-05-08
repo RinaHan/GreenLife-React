@@ -2,7 +2,7 @@ import React from 'react';
 import './resulttitle.css';
 
 
-const ResultTitle = ({text}) =>
+const ResultTitle = ({ text }) =>
     <div id="resulttitle">
         {text}
     </div>;

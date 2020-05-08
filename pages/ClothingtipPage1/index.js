@@ -3,12 +3,12 @@ import Link from 'next/link';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
 import '../HomePage/page1.css';
-import ClothingTip from '../../comps/ClothingTip';
+import ClothingTip1 from '../../comps/ClothingTip1';
 
-const ClothingtipPage = ({ }) =>
+const ClothingtipPage1 = ({ }) =>
     <div id="tipapp">
         <Header />
-        <ClothingTip/>
+        <ClothingTip1/>
         <Link href="/TipPage1">
         <div class="tipbutton">
             <Button
@@ -18,4 +18,4 @@ const ClothingtipPage = ({ }) =>
         </Link>
     </div>
     
-export default ClothingtipPage;
+export default ClothingtipPage1;

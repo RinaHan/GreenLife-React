@@ -1,11 +1,11 @@
-import React from 'react';
-import HomePage from '../pages/HomePage';
+// import React from 'react';
+// import HomePage from '../pages/HomePage';
 
-export default {
-    title: 'HomePage',
-}
+// export default {
+//     title: 'HomePage',
+// }
 
-export const HomePagee = () =>
-    <div>
-        <HomePage />
-    </div>
+// export const HomePagee = () =>
+//     <div>
+//         <HomePage />
+//     </div>

@@ -8,6 +8,7 @@ import './page1.css';
 
 const HomePage = ({}) =>
 <div id="homeapp">
+    <div></div>
         <Header />
         <HomeLogo/>
         <HomeText />

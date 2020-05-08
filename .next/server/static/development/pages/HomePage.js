@@ -2335,25 +2335,32 @@ const HomePage = ({}) => __jsx("div", {
     lineNumber: 10,
     columnNumber: 1
   }
-}, __jsx(_comps_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {
+}, __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11,
-    columnNumber: 9
+    columnNumber: 5
   }
-}), __jsx(_comps_HomeLogo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}), __jsx(_comps_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12,
     columnNumber: 9
   }
-}), __jsx(_comps_HomeText__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}), __jsx(_comps_HomeLogo__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13,
+    columnNumber: 9
+  }
+}), __jsx(_comps_HomeText__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
     columnNumber: 9
   }
 }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -2361,7 +2368,7 @@ const HomePage = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15,
+    lineNumber: 16,
     columnNumber: 9
   }
 }, __jsx("div", {
@@ -2369,7 +2376,7 @@ const HomePage = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16,
+    lineNumber: 17,
     columnNumber: 9
   }
 }, __jsx(_comps_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -2378,7 +2385,7 @@ const HomePage = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17,
+    lineNumber: 18,
     columnNumber: 13
   }
 }))));

@@ -6,7 +6,7 @@ import ResultImage1 from '../../comps/ResultImage1';
 import ResultExplanation1 from '../../comps/ResultExplanation1';
 import '../HomePage/page1.css';
 
-const picToShow = require('../../comps/ResultImage/face3.png')
+const picToShow = require('../../comps/ResultImage1/face3.png')
 
 const ResultPage3 = ({ profpic }) =>
     <div id="app">

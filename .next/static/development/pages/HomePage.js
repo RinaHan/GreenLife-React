@@ -4824,32 +4824,25 @@ var HomePage = function HomePage(_ref) {
       lineNumber: 10,
       columnNumber: 1
     }
-  }, __jsx("div", {
+  }, __jsx(_comps_Header__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
-      columnNumber: 5
-    }
-  }), __jsx(_comps_Header__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
       columnNumber: 9
     }
   }), __jsx(_comps_HomeLogo__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 12,
       columnNumber: 9
     }
   }), __jsx(_comps_HomeText__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 13,
       columnNumber: 9
     }
   }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -4857,7 +4850,7 @@ var HomePage = function HomePage(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -4865,7 +4858,7 @@ var HomePage = function HomePage(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 9
     }
   }, __jsx(_comps_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -4874,7 +4867,7 @@ var HomePage = function HomePage(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 17,
       columnNumber: 13
     }
   }))));

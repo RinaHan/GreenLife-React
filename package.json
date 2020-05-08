@@ -21,7 +21,7 @@
     "build-storybook": "build-storybook",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "name": "greenlife2",
   "description": "Dynamic Content/Design Final",

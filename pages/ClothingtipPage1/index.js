@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
-import '../HomePage/page1.css';
 import ClothingTip1 from '../../comps/ClothingTip1';
+import '../HomePage/page1.css';
 
 const ClothingtipPage1 = ({ }) =>
     <div id="tipapp">

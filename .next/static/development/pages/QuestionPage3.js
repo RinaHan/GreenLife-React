@@ -4922,7 +4922,7 @@ var QuestionPage3 = function QuestionPage3(_ref) {
 
 /***/ }),
 
-/***/ 15:
+/***/ 14:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FQuestionPage3&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FQuestionPage3%2Findex.js ***!
   \********************************************************************************************************************************************/
@@ -4945,5 +4945,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[15,"static/runtime/webpack.js","styles"]]]);
+},[[14,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=QuestionPage3.js.map

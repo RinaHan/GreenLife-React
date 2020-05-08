@@ -4877,7 +4877,7 @@ var HomePage = function HomePage(_ref) {
 
 /***/ }),
 
-/***/ 10:
+/***/ 3:
 /*!**********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FHomePage&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FHomePage%2Findex.js ***!
   \**********************************************************************************************************************************/
@@ -4900,5 +4900,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=HomePage.js.map

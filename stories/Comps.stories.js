@@ -8,12 +8,12 @@ import Question2 from '../comps/Question2';
 import Question3 from '../comps/Question3';
 import ResultTitle from '../comps/ResultTitle';
 import ResultImage1 from '../comps/ResultImage1';
-import './qpages.css';
 import ResultExplanation1 from '../comps/ResultExplanation1';
 import TipsIcons1 from '../comps/TipsIcons1';
 import FoodTip1 from '../comps/FoodTip1';
 import ClothingTip1 from '../comps/ClothingTip1';
 import TransportationTip1 from '../comps/TransportationTip1';
+import './qpages.css';
 
 
 

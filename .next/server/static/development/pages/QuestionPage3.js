@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2469,7 +2469,7 @@ const QuestionPage3 = ({}) => __jsx("div", {
 
 /***/ }),
 
-/***/ 8:
+/***/ 7:
 /*!********************************************!*\
   !*** multi ./pages/QuestionPage3/index.js ***!
   \********************************************/

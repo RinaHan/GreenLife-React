@@ -12,11 +12,11 @@ const Question2 = ({ question, text1, text2, text3 }) =>
         <div id="picid2">
             <div className="iconback first">
                 <img src={pic1} />
-                <div className="text">{text1}</div>
+                <div className="text" id="small">{text1}</div>
             </div>
             <div className="iconback second">
                 <img src={pic2} />
-                <div className="text">{text2}</div>
+                <div className="text" id="small">{text2}</div>
             </div>
             <div className="iconback third">
                 <img src={pic3} />

@@ -3,7 +3,7 @@ import './homelogo.css';
 
 const homelogoimg = require('./homelogo.png')
 
-const HomeLogo = ({ }) =>
+const HomeLogo1 = ({ }) =>
     <div id="whole">
         <div></div>
         <div id="homeimage"><img id="homelogoimage" src={homelogoimg} /></div>
@@ -13,5 +13,5 @@ const HomeLogo = ({ }) =>
 //     profpic:defaultProfPic,
 // }
 
-export default HomeLogo;
+export default HomeLogo1;
 

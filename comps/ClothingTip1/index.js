@@ -1,5 +1,5 @@
 import React from 'react';
-import '../FoodTip1/foodtip1.css';
+import './foodtip1.css';
 
 const pic2 = require('../TipsIcons1/clothing.png');
 

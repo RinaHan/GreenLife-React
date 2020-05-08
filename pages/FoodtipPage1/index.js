@@ -3,12 +3,12 @@ import Link from 'next/link';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
 import '../HomePage/page1.css';
-import FoodTip from '../../comps/FoodTip';
+import FoodTip1 from '../../comps/FoodTip1';
 
 const FoodtipPage1 = ({ }) =>
     <div id="tipapp">
         <Header />
-        <FoodTip/>
+        <FoodTip1/>
         <Link href="/TipPage1">
         <div class="tipbutton">
             <Button

@@ -10,7 +10,7 @@ const QuestionPage3 = ({}) =>
         <Header />
         <Question3/>
 
-        <Link href="/ResultPage">
+        <Link href="/ResultPage1">
         <div class="questionbutton">
             <Button
                 width="200px"

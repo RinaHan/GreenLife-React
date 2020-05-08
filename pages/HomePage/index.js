@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import HomeLogo from '../../comps/HomeLogo';
+import HomeLogo from '../../comps/HomeLogo1';
 import HomeText from '../../comps/HomeText';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';

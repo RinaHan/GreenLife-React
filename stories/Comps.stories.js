@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../comps/Header';
-import HomeLogo from '../comps/HomeLogo';
+import HomeLogo from '../comps/HomeLogo1';
 import Button from '../comps/Button';
 import HomeText from '../comps/HomeText';
 import Question1 from '../comps/Question1';

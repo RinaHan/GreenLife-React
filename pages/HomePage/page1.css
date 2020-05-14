@@ -38,6 +38,12 @@
     position: relative;
     top: 230px;
 }
+.backbutton{
+    position: relative;
+    bottom: 55px;
+    left:80px;
+}
+
 .tipbutton{
     position: relative;
     bottom: 50px;
@@ -50,7 +56,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 80%;
     height: 150px;
     background-color: rgb(241, 241, 241);
     border-radius: 30px;

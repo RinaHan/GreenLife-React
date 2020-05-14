@@ -4,10 +4,15 @@ import Question1 from '../../comps/Question1';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
 import '../HomePage/page1.css';
+import BackButton from '../../comps/BackButton';
 
 const QuestionPage1 = ({}) =>
     <div id="app">
         <Header />
+        <div className="backbutton">
+        <BackButton/>
+        </div>
+        
         <Question1
             question="Q1. What are you wearing today?"
             text1="1. Recycled"
@@ -18,6 +23,8 @@ const QuestionPage1 = ({}) =>
             <Button />
         </div>
         </Link>
+
+       
     </div>
 
 export default QuestionPage1;

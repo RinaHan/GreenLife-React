@@ -14,7 +14,7 @@ const ResultPage1 = ({ profpic }) =>
         <Header />
         <ResultTitle />
         <ResultImage1 />
-        <div class="resultbox">
+        <div className="resultbox">
             <ResultExplanation1
                 text="Sorry, you contribute to the creation of environmental pollutants. - 
             but don't worry. We have some tips to improve. Check tips to improve! "/>
@@ -23,8 +23,13 @@ const ResultPage1 = ({ profpic }) =>
             <Button
                 width="190px"
                 text="Check Tips" />
-                </Link>
+        </Link>
+        <Link href="/QuestionPage3">
+        <Button
+            width="190px"
+            text="< Back" />
+             </Link>
     </div>
-    
+
 
 export default ResultPage1;

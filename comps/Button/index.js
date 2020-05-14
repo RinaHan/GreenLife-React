@@ -3,10 +3,11 @@ import './button.css';
 
 
 const Button = ({width, text, onClick}) =>
-    <div id="buttoncomp"
+    <div>
+        <div id="buttoncomp"
     style = {{width: width}} onClick={onClick}>
             {text}
-            <div id="buttonicon"></div>
+        </div>
         </div>;
 
 function ButtonClick(){

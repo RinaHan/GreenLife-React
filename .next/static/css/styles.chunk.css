@@ -1,18 +1,30 @@
+#homelogoimage{
+    /* background-image: url(logo.png); */
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: relative;;
+    top: 80px;
+    /* background-color: rgb(197, 252, 172); */
+}
+
 #whole{
     width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 70px;
 }
-#picid3 .iconback {
-     border-radius: 10px;
-     padding: 0 0 0px 0;
+#picid1 .iconback {
+    border-radius: 10px;
+    padding: 0 0 0px 0;
     width: 100px;
     height: 90px;
     cursor: pointer;
 }
-#picid3 > div{
+#picid1 > div{
     width: 50px;
     height: 50px;
     margin: 25px;
@@ -21,48 +33,77 @@
     justify-content: center;
     align-items: center;
 }
-#picid3 img{
+#picid1 img{
     width: 50px;
     height: auto;
 }
 .text{
     font-size: 17px;
+    padding-top: 5px;
+}
+#small{
+    font-size: 16px;
+    padding-top: 5px;
 }
 #questiontext{
     height: 50px;
     font-size: 20px;
 }
 
-#picid3 .first {
-    background-color: rgb(253, 223, 179);
+#picid1 .first {
+    background-color: rgb(252, 223, 59);
 }
-#picid3 .second {
-    background-color: rgb(250, 196, 116);
+#picid1 .second {
+    background-color: rgb(252, 175, 59);
 }
-#picid3 .third {
-    background-color: rgb(250, 143, 56);
+#picid1 .third {
+    background-color: rgb(252, 130, 59);
 }
-#picid3 .first:hover {
-    background-color: rgb(233, 204, 160);
+#picid1 .first:hover {
+    background-color: rgb(224, 197, 43);
 }
-#picid3 .second:hover {
-    background-color: rgb(230, 177, 97);
+#picid1 .second:hover {
+    background-color: rgb(207, 138, 34);
 }
-#picid3 .third:hover {
-    background-color:  rgb(228, 121, 33);
+#picid1 .third:hover {
+    background-color: rgb(216, 97, 41);
 }
 #header{
-    width: 360px;
+    width: 100%;
     height: 80px;
     background-color: rgb(79, 207, 19);
     display: flex;
     align-items: center;
 }
 #logoimg{
-    background-size: cover;
+    /* background-size: cover; */
     width: 100px;
     height: 50px;
     margin-left: 10px;
+    cursor: pointer;
+}
+#logoimg:hover{
+    width: 103px;
+    height: auto;
+}
+.headericons{
+    display: flex;
+    position: absolute;
+    left: 300px;
+}
+.headericons img{
+    width: 30px;
+    height: 30px;
+    /* position: absolute; */
+   
+    margin: 7px;
+    opacity: 35%;
+    /* display: flex; */
+}
+.headericons img:hover{
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
 }
 
 
@@ -83,22 +124,6 @@
     /* color: white; */
 }
 
-#resulttitle{
-    font-size: 30px;
-    margin: 40px 0px 20px;
-}
-#resultimage img{
-    width: 130px;
-    height: 130px;
-    background-size: cover;
-    margin-top: 50px;
-}
-#resultexplanationtext{
-    text-align: center;
-    width: 260px;
-    font-size: 18px;
-    margin: 50px 0px ;
-}
 #homeapp{
     width: 360px;
     height: 710px;
@@ -139,6 +164,12 @@
     position: relative;
     top: 230px;
 }
+.backbutton{
+    position: relative;
+    bottom: 55px;
+    left:80px;
+}
+
 .tipbutton{
     position: relative;
     bottom: 50px;
@@ -151,7 +182,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 80%;
     height: 150px;
     background-color: rgb(241, 241, 241);
     border-radius: 30px;
@@ -161,6 +192,27 @@
 }
 .third{
     height: 180px;
+}
+#backicon{
+    width:40px;
+    height: 40px;
+    background-color:rgb(79, 207, 19);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(39, 39, 39);
+    /* margin: 20px; */
+}
+#backicon img{
+    width: 100%;
+    opacity: 20%;
+}
+
+#backicon:hover{
+    background-color:rgb(46, 173, 57);
 }
 
 /*# sourceMappingURL=styles.chunk.css.map*/

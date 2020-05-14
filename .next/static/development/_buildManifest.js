@@ -1,1 +1,1 @@
-self.__BUILD_MANIFEST = (function(a,b){return {"/QuestionPage3":[a,b],"/ResultPage1":[a,b]}}("static\u002Fcss\u002Fstyles.chunk.css","static\u002Fchunks\u002Fstyles.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
+self.__BUILD_MANIFEST = (function(a,b){return {"/HomePage":[a,b],"/QuestionPage1":[a,b]}}("static\u002Fcss\u002Fstyles.chunk.css","static\u002Fchunks\u002Fstyles.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

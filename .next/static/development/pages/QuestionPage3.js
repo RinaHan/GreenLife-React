@@ -178,7 +178,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -186,7 +186,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 13
     }
   }, __jsx("img", {
@@ -195,7 +195,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 17
     }
   }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -203,7 +203,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 17,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -211,7 +211,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 13
     }
   }, __jsx("img", {
@@ -219,7 +219,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 17
     }
   }))));
@@ -401,7 +401,7 @@ function IconClick3() {
 }
 
 Question3.defaultProps = {
-  question: "Q3. What did you transport today?",
+  question: "Q3. How did you transport today?",
   text1: "1. Bicycle",
   text2: "2. Bus",
   text3: "3. Car",
@@ -5084,7 +5084,7 @@ var QuestionPage3 = function QuestionPage3(_ref) {
 
 /***/ }),
 
-/***/ 24:
+/***/ 16:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FQuestionPage3&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FQuestionPage3%2Findex.js ***!
   \********************************************************************************************************************************************/
@@ -5107,5 +5107,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[24,"static/runtime/webpack.js","styles"]]]);
+},[[16,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=QuestionPage3.js.map

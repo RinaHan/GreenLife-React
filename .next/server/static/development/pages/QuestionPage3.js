@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -306,7 +306,7 @@ const Header = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10,
+    lineNumber: 11,
     columnNumber: 9
   }
 }, __jsx("div", {
@@ -314,7 +314,7 @@ const Header = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11,
+    lineNumber: 12,
     columnNumber: 13
   }
 }, __jsx("img", {
@@ -323,7 +323,7 @@ const Header = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12,
+    lineNumber: 13,
     columnNumber: 17
   }
 }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -331,7 +331,7 @@ const Header = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16,
+    lineNumber: 17,
     columnNumber: 9
   }
 }, __jsx("div", {
@@ -339,7 +339,7 @@ const Header = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17,
+    lineNumber: 18,
     columnNumber: 13
   }
 }, __jsx("img", {
@@ -347,7 +347,7 @@ const Header = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18,
+    lineNumber: 19,
     columnNumber: 17
   }
 }))));
@@ -525,7 +525,7 @@ function IconClick3() {
 }
 
 Question3.defaultProps = {
-  question: "Q3. What did you transport today?",
+  question: "Q3. How did you transport today?",
   text1: "1. Bicycle",
   text2: "2. Bus",
   text3: "3. Car",
@@ -2633,7 +2633,7 @@ const QuestionPage3 = ({}) => __jsx("div", {
 
 /***/ }),
 
-/***/ 9:
+/***/ 7:
 /*!********************************************!*\
   !*** multi ./pages/QuestionPage3/index.js ***!
   \********************************************/

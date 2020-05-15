@@ -8,6 +8,16 @@
     justify-content: center;
     border-radius: 30px;
 }
+#clothingtipborder{
+    width: 300px;
+    height: 300px;
+    background-color:rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
 #tipimagearea{
     display: flex;
     align-items: center;

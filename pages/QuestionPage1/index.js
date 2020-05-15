@@ -9,15 +9,19 @@ import BackButton from '../../comps/BackButton';
 const QuestionPage1 = ({}) =>
     <div id="app">
         <Header />
+
+        <Link href="/Homepage">
         <div className="backbutton">
         <BackButton/>
         </div>
+        </Link>
         
         <Question1
             question="Q1. What are you wearing today?"
             text1="1. Recycled"
             text2="2. Cotton"
             text3="3. Polyester" />
+
         <Link href="/QuestionPage2">
         <div class="questionbutton">
             <Button />

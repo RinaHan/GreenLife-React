@@ -7,8 +7,7 @@ const BackButton = ({}) =>
     
         <div id="backicon" >
             <img src={icon1} />
-        </div>
-        ;
+        </div>;
 
 
 

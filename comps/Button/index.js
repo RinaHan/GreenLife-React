@@ -2,21 +2,22 @@ import React from 'react';
 import './button.css';
 
 
-const Button = ({width, text, onClick}) =>
+const Button = ({ width, text, onClick }) =>
     <div>
         <div id="buttoncomp"
-    style = {{width: width}} onClick={onClick}>
+            style={{ width: width }}
+            onClick={onClick}>
             {text}
         </div>
-        </div>;
+    </div>;
 
-function ButtonClick(){
+function ButtonClick() {
     alert("Clicked");
 }
 
 Button.defaultProps = {
-    text:"Next",
-    width:"150px",
+    text: "Next",
+    width: "150px",
     // onClick: ButtonClick
 }
 

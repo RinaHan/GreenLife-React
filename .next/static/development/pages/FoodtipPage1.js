@@ -4949,26 +4949,34 @@ var FoodtipPage1 = function FoodtipPage1(_ref) {
       lineNumber: 11,
       columnNumber: 9
     }
-  }), __jsx("div", {
-    className: "backbutton",
+  }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/TipPage1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
       columnNumber: 9
     }
-  }, __jsx(_comps_BackButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx("div", {
+    className: "backbutton",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 9
     }
-  })), __jsx(_comps_FoodTip1__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, __jsx(_comps_BackButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 15,
+      columnNumber: 9
+    }
+  }))), __jsx(_comps_FoodTip1__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
       columnNumber: 9
     }
   }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -4976,7 +4984,7 @@ var FoodtipPage1 = function FoodtipPage1(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 20,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -4984,7 +4992,7 @@ var FoodtipPage1 = function FoodtipPage1(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 21,
       columnNumber: 9
     }
   }, __jsx(_comps_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -4993,7 +5001,7 @@ var FoodtipPage1 = function FoodtipPage1(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 22,
       columnNumber: 13
     }
   }))));

@@ -14,9 +14,11 @@ const ResultPage1 = ({ profpic }) =>
     <div id="app">
         <Header />
 
+        <Link href="/QuestionPage3">
         <div className="backbutton">
         <BackButton/>
         </div>
+        </Link>
 
         <ResultTitle />
         <ResultImage1 />

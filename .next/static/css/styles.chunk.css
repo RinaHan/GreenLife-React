@@ -1,56 +1,13 @@
-#whole{
-    width: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#picid2 .iconback {
-     border-radius: 10px;
-     padding: 0 0 0px 0;
+#homelogoimage{
+    /* background-image: url(logo.png); */
     width: 100px;
-    height: 90px;
-    cursor: pointer;
-}
-#picid2 > div{
-    width: 50px;
-    height: 50px;
-    margin: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#picid2 img{
-    width: 50px;
-    height: auto;
-}
-.text{
-    font-size: 17px;
-}
-#questiontext{
-    height: 50px;
-    font-size: 20px;
+    height: 100px;
+    background-size: contain;
+    position: relative;;
+    top: 80px;
+    /* background-color: rgb(197, 252, 172); */
 }
 
-#picid2 .first {
-    background-color: rgb(187, 247, 255);
-}
-#picid2 .second {
-    background-color:rgb(125, 240, 248);
-}
-#picid2 .third {
-    background-color: rgb(45, 215, 245);
-}
-#picid2 .first:hover {
-    background-color: rgb(122, 219, 223);
-}
-#picid2 .second:hover {
-    background-color:rgb(79, 218, 223);
-}
-#picid2 .third:hover {
-    background-color: rgb(31, 193, 221);
-}
 #header{
     width: 100%;
     height: 80px;
@@ -132,41 +89,6 @@
     width: 38px;
     height: 38px;
 }
-#resulttitle{
-    font-size: 30px;
-    margin: 40px 0px 20px;
-}
-.tipsicons img{
-    width: 50px;
-    margin: 0px 20px 0px -30px;
-}
-.tipsicons{
-    width: 70px;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    right: 35px;
-    font-size: 20px;
-    font-weight: bold;
-}
-.tipsicons:hover{
-    color:rgb(143, 85, 18);
-    font-size: 23px;
-    cursor: pointer;;
-}
-#tipbordereee{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(241, 241, 241);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-}
-
-
 #homeapp{
     width: 360px;
     height: 710px;

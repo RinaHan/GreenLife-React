@@ -10,9 +10,11 @@ const ClothingtipPage1 = ({ }) =>
     <div id="tipapp">
         <Header />
         
+        <Link href="/TipPage1">
         <div className="backbutton">
         <BackButton/>
         </div>
+        </Link>
 
         <ClothingTip1/>
         <Link href="/TipPage1">

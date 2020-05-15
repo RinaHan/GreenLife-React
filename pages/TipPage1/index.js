@@ -11,9 +11,11 @@ const TipPage1 = ({ }) =>
     <div id="tipapp">
         <Header />
 
+        <Link href="/ResultPage1">
         <div className="backbutton">
         <BackButton/>
         </div>
+        </Link>
 
         <div id="tiptitle">
         <ResultTitle

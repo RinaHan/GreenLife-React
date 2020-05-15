@@ -185,6 +185,110 @@
     width: 38px;
     height: 38px;
 }
+#resulttitle{
+    font-size: 30px;
+    margin: 40px 0px 20px;
+}
+#resultimage img{
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    margin-top: 50px;
+}
+#resultexplanationtext{
+    text-align: center;
+    width: 85%;
+    font-size: 18px;
+    margin: 50px 0px ;
+}
+.tipsicons img{
+    width: 50px;
+    margin: 0px 20px 0px -30px;
+}
+.tipsicons{
+    width: 70px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tipsicons:hover{
+    color:rgb(143, 85, 18);
+    font-size: 23px;
+    cursor: pointer;;
+}
+#tipbordereee{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+
+#tipborder{
+    width: 300px;
+    height: 30px;
+    background-color:rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+#clothingtipborder{
+    width: 300px;
+    height: 320px;
+    background-color:rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+#tipimagearea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(129, 248, 198);
+}
+#tipimagearea img{
+    width: 40px;
+}
+#tiptitle{
+    font-weight: bold;
+    font-size: 19px;
+    /* width: 100%; */
+    /* margin:10px; */
+}
+#tiptext{
+    font: 17px/30px Georgia;
+    margin-top: 20px;
+    width: 200px;
+}
+#transportationtiptext{
+    font: 17px/30px Georgia;
+    margin-top: 20px;
+    width: 230px;
+}
+#clothingtiptext{
+    font: 17px/30px Georgia;
+    margin-top: 20px;
+    width: 250px;
+}
+
+
+
+
+
 #homeapp{
     width: 360px;
     height: 710px;

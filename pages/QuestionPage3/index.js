@@ -25,6 +25,7 @@ const QuestionPage3 = ({}) =>
                 text="View Result" />
         </div>
         </Link>
+        
         </div>
 
 export default QuestionPage3;

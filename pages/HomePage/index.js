@@ -11,6 +11,7 @@ const HomePage = ({}) =>
         <Header />
         <HomeLogo1/>
         <HomeText />
+        <div id="hometextbackcolor"></div>
         
         <Link href="/QuestionPage1">
         <div class="homebutton">
@@ -19,5 +20,6 @@ const HomePage = ({}) =>
             text="Let's start" />
         </div>
         </Link>
+        
     </div>
 export default HomePage;

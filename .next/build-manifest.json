@@ -14,13 +14,7 @@
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/QuestionPage1": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
-    ],
-    "/QuestionPage2": [
+    "/ResultPage1": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",

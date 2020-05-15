@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 11);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -337,14 +337,14 @@ const ClothingTip1 = ({
     lineNumber: 15,
     columnNumber: 12
   }
-})));
+}))); // ClothingTip1.defaultProps = {
+//     color: "paleturquoise",
+//     text1: "💧Less dependence on imported raw materials",
+//     text2: "💧Helps promote jobs and industries that are ecofriendly",
+//     text3: "💧Quality of clothing is usually better",
+// }
 
-ClothingTip1.defaultProps = {
-  color: "paleturquoise",
-  text1: "💧Less dependence on imported raw materials",
-  text2: "💧Helps promote jobs and industries that are ecofriendly",
-  text3: "💧Quality of clothing is usually better"
-};
+
 /* harmony default export */ __webpack_exports__["default"] = (ClothingTip1);
 
 /***/ }),
@@ -2485,6 +2485,9 @@ const ClothingtipPage1 = ({}) => __jsx("div", {
     columnNumber: 9
   }
 }))), __jsx(_comps_ClothingTip1__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  text1: "\uD83D\uDCA7Less dependence on imported raw materials",
+  text2: "\uD83D\uDCA7Helps promote jobs and industries that are ecofriendly",
+  text3: "\uD83D\uDCA7Quality of clothing is usually better",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -2496,7 +2499,7 @@ const ClothingtipPage1 = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20,
+    lineNumber: 23,
     columnNumber: 9
   }
 }, __jsx("div", {
@@ -2504,7 +2507,7 @@ const ClothingtipPage1 = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21,
+    lineNumber: 24,
     columnNumber: 9
   }
 }, __jsx(_comps_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -2513,7 +2516,7 @@ const ClothingtipPage1 = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22,
+    lineNumber: 25,
     columnNumber: 13
   }
 }))));
@@ -2533,7 +2536,7 @@ const ClothingtipPage1 = ({}) => __jsx("div", {
 
 /***/ }),
 
-/***/ 10:
+/***/ 11:
 /*!***********************************************!*\
   !*** multi ./pages/ClothingtipPage1/index.js ***!
   \***********************************************/

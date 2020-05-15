@@ -16,7 +16,10 @@ const ClothingtipPage1 = ({ }) =>
         </div>
         </Link>
 
-        <ClothingTip1/>
+        <ClothingTip1
+        text1= "💧Less dependence on imported raw materials"
+        text2= "💧Helps promote jobs and industries that are ecofriendly"
+        text3= "💧Quality of clothing is usually better"/>
         <Link href="/TipPage1">
         <div class="tipbutton">
             <Button

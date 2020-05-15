@@ -16,12 +16,12 @@ const ClothingTip1 = ({text1, text2, text3, text4, text5, color}) =>
     </span>
 </div>;
 
-ClothingTip1.defaultProps = {
-    color: "paleturquoise",
-    text1: "💧Less dependence on imported raw materials",
-    text2: "💧Helps promote jobs and industries that are ecofriendly",
-    text3: "💧Quality of clothing is usually better",
-}
+// ClothingTip1.defaultProps = {
+//     color: "paleturquoise",
+//     text1: "💧Less dependence on imported raw materials",
+//     text2: "💧Helps promote jobs and industries that are ecofriendly",
+//     text3: "💧Quality of clothing is usually better",
+// }
 
 export default ClothingTip1;
 

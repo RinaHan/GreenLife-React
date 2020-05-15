@@ -7,6 +7,7 @@ const icon1 = require('./icon1.png')
 
 const Header = ({ }) =>
     <div id="header">
+        
         <Link href="/HomePage">
             <div id="headerlogo">
                 <img id="logoimg" src={logopic} />

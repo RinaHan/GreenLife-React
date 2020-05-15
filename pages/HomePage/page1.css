@@ -39,11 +39,10 @@
     top: 230px;
 }
 .backbutton{
-    position: relative;
-    bottom: 55px;
-    left:80px;
+    position: absolute;
+    bottom: 747px;
+    left:250px;
 }
-
 .tipbutton{
     position: relative;
     bottom: 50px;

@@ -273,7 +273,10 @@ var Question1 = function Question1(_ref) {
   var question = _ref.question,
       text1 = _ref.text1,
       text2 = _ref.text2,
-      text3 = _ref.text3;
+      text3 = _ref.text3,
+      onClick1 = _ref.onClick1,
+      onClick2 = _ref.onClick2,
+      onClick3 = _ref.onClick3;
   return __jsx("div", {
     id: "whole",
     __self: _this,
@@ -300,6 +303,7 @@ var Question1 = function Question1(_ref) {
     }
   }, __jsx("div", {
     className: "iconback first",
+    onClick: onClick1,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -324,6 +328,7 @@ var Question1 = function Question1(_ref) {
     }
   }, text1)), __jsx("div", {
     className: "iconback second",
+    onClick: onClick2,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -348,6 +353,7 @@ var Question1 = function Question1(_ref) {
     }
   }, text2)), __jsx("div", {
     className: "iconback third",
+    onClick: onClick3,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -371,15 +377,37 @@ var Question1 = function Question1(_ref) {
       columnNumber: 17
     }
   }, text3))));
-}; // function IconClick(){
-// }
+};
 
+function Reset() {
+  document.querySelector(".first").style.backgroundColor = "rgb(252, 223, 59)";
+  document.querySelector(".second").style.backgroundColor = "rgb(252, 175, 59)";
+  document.querySelector(".third").style.backgroundColor = "rgb(252, 130, 59)";
+}
+
+function IconClick1() {
+  Reset();
+  document.querySelector(".first").style.backgroundColor = "rgb(224, 197, 43)";
+}
+
+function IconClick2() {
+  Reset();
+  document.querySelector(".second").style.backgroundColor = "rgb(207, 138, 34)";
+}
+
+function IconClick3() {
+  Reset();
+  document.querySelector(".third").style.backgroundColor = "rgb(216, 97, 41)";
+}
 
 Question1.defaultProps = {
   question: "What are you wearing today?",
   text1: "1.Recycled",
   text2: "2.Cotton",
-  text3: "3.Polyester"
+  text3: "3.Polyester",
+  onClick1: IconClick1,
+  onClick2: IconClick2,
+  onClick3: IconClick3
 };
 /* harmony default export */ __webpack_exports__["default"] = (Question1);
 

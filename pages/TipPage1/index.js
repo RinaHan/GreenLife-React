@@ -22,6 +22,7 @@ const TipPage1 = ({ }) =>
           text="Choose Tips!"/>
           </div>
         <TipsIcons1/>
+        
         <Link href="/ResultPage1">
         <div class="tipbutton">
             <Button

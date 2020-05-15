@@ -8,13 +8,13 @@ const pic3 = require('./car.png');
 
 const TipsIcons1 = ({ }) =>
     <div id="tipbordereee">
-        <Link href="/FoodtipPage2">
+        <Link href="/FoodtipPage1">
             <div className="tipsicons"><img src={pic1} />Food</div>
         </Link>
-        <Link href="/ClothingtipPage2">
+        <Link href="/ClothingtipPage1">
             <div className="tipsicons"><img src={pic2} />Clothing</div>
         </Link>
-        <Link href="/TransportationtipPage2">
+        <Link href="/TransportationtipPage1">
             <div className="tipsicons"><img src={pic3} />Transportation</div>
         </Link>
     </div>;

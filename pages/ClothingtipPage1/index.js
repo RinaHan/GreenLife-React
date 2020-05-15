@@ -17,6 +17,7 @@ const ClothingtipPage1 = ({ }) =>
         </Link>
 
         <ClothingTip1
+        color= "paleturquoise"
         text1= "💧Less dependence on imported raw materials"
         text2= "💧Helps promote jobs and industries that are ecofriendly"
         text3= "💧Quality of clothing is usually better"/>

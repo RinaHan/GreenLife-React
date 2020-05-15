@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Header from '../../comps/Header';
 import Button from '../../comps/Button';
 import BackButton from '../../comps/BackButton';
@@ -13,11 +14,11 @@ const ResultPage3 = ({ profpic }) =>
     <div id="app">
         <Header />
 
-        
-        <div className="backbutton">
-        <BackButton/>
-        </div>
-        
+        <Link href="/QuestionPage3">
+            <div className="backbutton">
+                <BackButton />
+            </div>
+        </Link>
 
         <ResultTitle />
         <ResultImage1
@@ -27,9 +28,12 @@ const ResultPage3 = ({ profpic }) =>
                 text="You are a sustainable superstar! Looks like you already know the benefits of a sustainable lifestyle. 
             We have some tips on how you can best spread your knowledge to those around you!"/>
         </div>
+
+        <Link href="/TipPage1">
             <Button
                 width="190px"
                 text="Check Tips" />
+        </Link>
     </div>
 
 export default ResultPage3;

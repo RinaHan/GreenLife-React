@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -246,120 +246,6 @@ Button.defaultProps = {
 
 /***/ }),
 
-/***/ "./comps/ClothingTip1/index.js":
-/*!*************************************!*\
-  !*** ./comps/ClothingTip1/index.js ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _FoodTip1_foodtip1_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../FoodTip1/foodtip1.css */ "./comps/FoodTip1/foodtip1.css");
-/* harmony import */ var _FoodTip1_foodtip1_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_FoodTip1_foodtip1_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/rina/GreenLife/comps/ClothingTip1/index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-const pic2 = __webpack_require__(/*! ../TipsIcons1/clothing.png */ "./comps/TipsIcons1/clothing.png");
-
-const ClothingTip1 = ({
-  text1,
-  text2,
-  text3,
-  text4,
-  text5,
-  color
-}) => __jsx("div", {
-  id: "clothingtipborder",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7,
-    columnNumber: 1
-  }
-}, __jsx("div", {
-  id: "tipimagearea",
-  style: {
-    backgroundColor: color
-  },
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8,
-    columnNumber: 5
-  }
-}, __jsx("img", {
-  src: pic2,
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9,
-    columnNumber: 9
-  }
-}), __jsx("span", {
-  id: "tiptitle",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10,
-    columnNumber: 9
-  }
-}, "Buying sustainable clothing..")), __jsx("span", {
-  id: "clothingtiptext",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 12,
-    columnNumber: 5
-  }
-}, text1, __jsx("br", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13,
-    columnNumber: 12
-  }
-}), text2, __jsx("br", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 14,
-    columnNumber: 12
-  }
-}), text3, __jsx("br", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15,
-    columnNumber: 12
-  }
-}))); // ClothingTip1.defaultProps = {
-//     color: "paleturquoise",
-//     text1: "💧Less dependence on imported raw materials",
-//     text2: "💧Helps promote jobs and industries that are ecofriendly",
-//     text3: "💧Quality of clothing is usually better",
-// }
-
-
-/* harmony default export */ __webpack_exports__["default"] = (ClothingTip1);
-
-/***/ }),
-
-/***/ "./comps/FoodTip1/foodtip1.css":
-/*!*************************************!*\
-  !*** ./comps/FoodTip1/foodtip1.css ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./comps/Header/header.css":
 /*!*********************************!*\
   !*** ./comps/Header/header.css ***!
@@ -481,14 +367,179 @@ module.exports = "/_next/static/images/logo-bf25e4dd1a962978fccac319cec6278e.png
 
 /***/ }),
 
-/***/ "./comps/TipsIcons1/clothing.png":
-/*!***************************************!*\
-  !*** ./comps/TipsIcons1/clothing.png ***!
-  \***************************************/
+/***/ "./comps/ResultExplanation1/index.js":
+/*!*******************************************!*\
+  !*** ./comps/ResultExplanation1/index.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _resultexplanation1_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resultexplanation1.css */ "./comps/ResultExplanation1/resultexplanation1.css");
+/* harmony import */ var _resultexplanation1_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_resultexplanation1_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/rina/GreenLife/comps/ResultExplanation1/index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const ResultExplanation1 = ({
+  text
+}) => __jsx("div", {
+  id: "resultexplanationtext",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 5
+  }
+}, text);
+
+ResultExplanation1.defaultProps = {
+  text: "imtirediwanttorestilikemeilikecanada"
+};
+/* harmony default export */ __webpack_exports__["default"] = (ResultExplanation1);
+
+/***/ }),
+
+/***/ "./comps/ResultExplanation1/resultexplanation1.css":
+/*!*********************************************************!*\
+  !*** ./comps/ResultExplanation1/resultexplanation1.css ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/clothing-8d4b03fa2b0a6bb30a6060e1fad35928.png";
+
+
+/***/ }),
+
+/***/ "./comps/ResultImage1/face1.png":
+/*!**************************************!*\
+  !*** ./comps/ResultImage1/face1.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/face1-f7f59444a2859dd4d60475a0bd24d8d0.png";
+
+/***/ }),
+
+/***/ "./comps/ResultImage1/face2.png":
+/*!**************************************!*\
+  !*** ./comps/ResultImage1/face2.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/face2-73861c610d140f85f2c2fdc7759f5828.png";
+
+/***/ }),
+
+/***/ "./comps/ResultImage1/index.js":
+/*!*************************************!*\
+  !*** ./comps/ResultImage1/index.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _resultimage1_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resultimage1.css */ "./comps/ResultImage1/resultimage1.css");
+/* harmony import */ var _resultimage1_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_resultimage1_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/rina/GreenLife/comps/ResultImage1/index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const defaultProfPic = __webpack_require__(/*! ./face1.png */ "./comps/ResultImage1/face1.png");
+
+const ResultImage1 = ({
+  profpic
+}) => __jsx("div", {
+  id: "resultimage",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 5
+  }
+}, __jsx("img", {
+  src: profpic,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 27
+  }
+}));
+
+ResultImage1.defaultProps = {
+  profpic: defaultProfPic
+};
+/* harmony default export */ __webpack_exports__["default"] = (ResultImage1);
+
+/***/ }),
+
+/***/ "./comps/ResultImage1/resultimage1.css":
+/*!*********************************************!*\
+  !*** ./comps/ResultImage1/resultimage1.css ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./comps/ResultTitle/index.js":
+/*!************************************!*\
+  !*** ./comps/ResultTitle/index.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _resulttitle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resulttitle.css */ "./comps/ResultTitle/resulttitle.css");
+/* harmony import */ var _resulttitle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_resulttitle_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/rina/GreenLife/comps/ResultTitle/index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const ResultTitle = ({
+  text
+}) => __jsx("div", {
+  id: "resulttitle",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 5
+  }
+}, text);
+
+ResultTitle.defaultProps = {
+  text: "Based on your results.."
+};
+/* harmony default export */ __webpack_exports__["default"] = (ResultTitle);
+
+/***/ }),
+
+/***/ "./comps/ResultTitle/resulttitle.css":
+/*!*******************************************!*\
+  !*** ./comps/ResultTitle/resulttitle.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
@@ -2417,10 +2468,21 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./pages/ClothingtipPage3/index.js":
-/*!*****************************************!*\
-  !*** ./pages/ClothingtipPage3/index.js ***!
-  \*****************************************/
+/***/ "./pages/HomePage/page1.css":
+/*!**********************************!*\
+  !*** ./pages/HomePage/page1.css ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./pages/ResultPage2/index.js":
+/*!************************************!*\
+  !*** ./pages/ResultPage2/index.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2433,10 +2495,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _comps_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../comps/Header */ "./comps/Header/index.js");
 /* harmony import */ var _comps_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../comps/Button */ "./comps/Button/index.js");
 /* harmony import */ var _comps_BackButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../comps/BackButton */ "./comps/BackButton/index.js");
-/* harmony import */ var _comps_ClothingTip1__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../comps/ClothingTip1 */ "./comps/ClothingTip1/index.js");
-/* harmony import */ var _HomePage_page1_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../HomePage/page1.css */ "./pages/HomePage/page1.css");
-/* harmony import */ var _HomePage_page1_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_HomePage_page1_css__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/rina/GreenLife/pages/ClothingtipPage3/index.js";
+/* harmony import */ var _comps_ResultTitle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../comps/ResultTitle */ "./comps/ResultTitle/index.js");
+/* harmony import */ var _comps_ResultImage1__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../comps/ResultImage1 */ "./comps/ResultImage1/index.js");
+/* harmony import */ var _comps_ResultExplanation1__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../comps/ResultExplanation1 */ "./comps/ResultExplanation1/index.js");
+/* harmony import */ var _HomePage_page1_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../HomePage/page1.css */ "./pages/HomePage/page1.css");
+/* harmony import */ var _HomePage_page1_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_HomePage_page1_css__WEBPACK_IMPORTED_MODULE_8__);
+var _jsxFileName = "/Users/rina/GreenLife/pages/ResultPage2/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2446,27 +2510,33 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const ClothingtipPage3 = ({}) => __jsx("div", {
-  id: "tipapp",
+
+
+const picToShow = __webpack_require__(/*! ../../comps/ResultImage1/face2.png */ "./comps/ResultImage1/face2.png");
+
+const ResultPage2 = ({
+  profpic
+}) => __jsx("div", {
+  id: "app",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10,
+    lineNumber: 14,
     columnNumber: 5
   }
 }, __jsx(_comps_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11,
+    lineNumber: 15,
     columnNumber: 9
   }
 }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/TipPage1",
+  href: "/QuestionPage3",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13,
+    lineNumber: 17,
     columnNumber: 9
   }
 }, __jsx("div", {
@@ -2474,76 +2544,78 @@ const ClothingtipPage3 = ({}) => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14,
-    columnNumber: 9
+    lineNumber: 18,
+    columnNumber: 13
   }
 }, __jsx(_comps_BackButton__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15,
-    columnNumber: 9
-  }
-}))), __jsx(_comps_ClothingTip1__WEBPACK_IMPORTED_MODULE_5__["default"], {
-  text1: "\uD83D\uDCA7Encourages those around you to live a more sustainable lifestyle.",
-  text2: "\uD83D\uDCA7Showing people the benefits of your lifestyle will encourage them to promote it to their friends." //   text3= "💧It works through positive word of mouth."
-  ,
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
     lineNumber: 19,
-    columnNumber: 9
+    columnNumber: 17
   }
-}), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/TipPage1",
+}))), __jsx(_comps_ResultTitle__WEBPACK_IMPORTED_MODULE_5__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25,
+    lineNumber: 23,
     columnNumber: 9
   }
-}, __jsx("div", {
-  class: "tipbutton",
+}), __jsx(_comps_ResultImage1__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  profpic: picToShow,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24,
+    columnNumber: 9
+  }
+}), __jsx("div", {
+  class: "resultbox second",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 26,
     columnNumber: 9
   }
-}, __jsx(_comps_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  width: "220px",
-  text: "< Back",
+}, __jsx(_comps_ResultExplanation1__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  text: "Wow, you are on the right track but there's still room for improvement. We have some tips to help you out! ",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 27,
     columnNumber: 13
   }
-}))));
+})), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/TipPage1",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31,
+    columnNumber: 9
+  }
+}, __jsx(_comps_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  width: "190px",
+  text: "Check Tips",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32,
+    columnNumber: 13
+  }
+})));
 
-/* harmony default export */ __webpack_exports__["default"] = (ClothingtipPage3);
+/* harmony default export */ __webpack_exports__["default"] = (ResultPage2);
 
 /***/ }),
 
-/***/ "./pages/HomePage/page1.css":
-/*!**********************************!*\
-  !*** ./pages/HomePage/page1.css ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 5:
-/*!***********************************************!*\
-  !*** multi ./pages/ClothingtipPage3/index.js ***!
-  \***********************************************/
+/***/ 4:
+/*!******************************************!*\
+  !*** multi ./pages/ResultPage2/index.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/rina/GreenLife/pages/ClothingtipPage3/index.js */"./pages/ClothingtipPage3/index.js");
+module.exports = __webpack_require__(/*! /Users/rina/GreenLife/pages/ResultPage2/index.js */"./pages/ResultPage2/index.js");
 
 
 /***/ }),
@@ -2593,4 +2665,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=ClothingtipPage3.js.map
+//# sourceMappingURL=ResultPage2.js.map

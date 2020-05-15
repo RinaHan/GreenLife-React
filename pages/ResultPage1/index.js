@@ -27,16 +27,13 @@ const ResultPage1 = ({ profpic }) =>
                 text="Sorry, you contribute to the creation of environmental pollutants. - 
             but don't worry. We have some tips to improve. Check tips to improve! "/>
         </div>
+
         <Link href="/TipPage1">
             <Button
                 width="190px"
                 text="Check Tips" />
         </Link>
-        {/* <Link href="/QuestionPage3">
-        <Button
-            width="190px"
-            text="< Back" />
-             </Link> */}
+
     </div>
 
 

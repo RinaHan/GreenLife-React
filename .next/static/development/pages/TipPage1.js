@@ -5091,7 +5091,7 @@ var TipPage1 = function TipPage1(_ref) {
 
 /***/ }),
 
-/***/ 22:
+/***/ 23:
 /*!**********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FTipPage1&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FTipPage1%2Findex.js ***!
   \**********************************************************************************************************************************/
@@ -5114,5 +5114,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[22,"static/runtime/webpack.js","styles"]]]);
+},[[23,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=TipPage1.js.map

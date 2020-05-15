@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -525,7 +525,7 @@ function IconClick3() {
 }
 
 Question3.defaultProps = {
-  question: "Q3. What did you transport today?",
+  question: "Q3. How did you transport today?",
   text1: "1. Bicycle",
   text2: "2. Bus",
   text3: "3. Car",
@@ -2633,7 +2633,7 @@ const QuestionPage3 = ({}) => __jsx("div", {
 
 /***/ }),
 
-/***/ 9:
+/***/ 7:
 /*!********************************************!*\
   !*** multi ./pages/QuestionPage3/index.js ***!
   \********************************************/

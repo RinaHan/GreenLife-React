@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2631,7 +2631,7 @@ const TipPage1 = ({}) => __jsx("div", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 9:
 /*!***************************************!*\
   !*** multi ./pages/TipPage1/index.js ***!
   \***************************************/

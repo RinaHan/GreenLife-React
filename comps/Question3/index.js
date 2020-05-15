@@ -46,7 +46,7 @@ function IconClick3(){
 }
 
 Question3.defaultProps = {
-    question: "Q3. What did you transport today?",
+    question: "Q3. How did you transport today?",
     text1: "1. Bicycle",
     text2: "2. Bus",
     text3: "3. Car",

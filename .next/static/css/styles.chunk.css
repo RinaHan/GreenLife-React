@@ -1,3 +1,193 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#homelogoimage{
+    /* background-image: url(logo.png); */
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: relative;;
+    top: 80px;
+    /* background-color: rgb(197, 252, 172); */
+}
+
+#hometext{
+    /* background-color: rgb(253, 236, 235); */
+    width: 80%;
+    height: 130px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+}
+#whole{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#picid2 .iconback {
+     border-radius: 10px;
+     padding: 0 0 0px 0;
+    width: 100px;
+    height: 90px;
+    cursor: pointer;
+}
+#picid2 > div{
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#picid2 img{
+    width: 50px;
+    height: auto;
+}
+.text{
+    font-size: 17px;
+}
+#questiontext{
+    height: 50px;
+    font-size: 20px;
+}
+
+#picid2 .first {
+    background-color: rgb(187, 247, 255);
+}
+#picid2 .second {
+    background-color:rgb(125, 240, 248);
+}
+#picid2 .third {
+    background-color: rgb(45, 215, 245);
+}
+#picid2 .first:hover {
+    background-color: rgb(122, 219, 223);
+}
+#picid2 .second:hover {
+    background-color:rgb(79, 218, 223);
+}
+#picid2 .third:hover {
+    background-color: rgb(31, 193, 221);
+}
+#whole{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+#picid1 .iconback {
+    border-radius: 10px;
+    padding: 0 0 0px 0;
+    width: 100px;
+    height: 90px;
+    cursor: pointer;
+}
+#picid1 > div{
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#picid1 img{
+    width: 50px;
+    height: auto;
+}
+.text{
+    font-size: 17px;
+    padding-top: 5px;
+}
+#small{
+    font-size: 16px;
+    padding-top: 5px;
+}
+#questiontext{
+    height: 50px;
+    font-size: 20px;
+}
+
+#picid1 .first {
+    background-color: rgb(252, 223, 59);
+}
+#picid1 .second {
+    background-color: rgb(252, 175, 59);
+}
+#picid1 .third {
+    background-color: rgb(252, 130, 59);
+}
+#picid1 .first:hover {
+    background-color: rgb(224, 197, 43);
+}
+#picid1 .second:hover {
+    background-color: rgb(207, 138, 34);
+}
+#picid1 .third:hover {
+    background-color: rgb(216, 97, 41);
+}
+#whole{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#picid3 .iconback {
+     border-radius: 10px;
+     padding: 0 0 0px 0;
+    width: 100px;
+    height: 90px;
+    cursor: pointer;
+}
+#picid3 > div{
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#picid3 img{
+    width: 50px;
+    height: auto;
+}
+.text{
+    font-size: 17px;
+}
+#questiontext{
+    height: 50px;
+    font-size: 20px;
+}
+
+#picid3 .first {
+    background-color: rgb(253, 223, 179);
+}
+#picid3 .second {
+    background-color: rgb(250, 196, 116);
+}
+#picid3 .third {
+    background-color: rgb(250, 143, 56);
+}
+#picid3 .first:hover {
+    background-color: rgb(233, 204, 160);
+}
+#picid3 .second:hover {
+    background-color: rgb(230, 177, 97);
+}
+#picid3 .third:hover {
+    background-color:  rgb(228, 121, 33);
+}
 #header{
     width: 100%;
     height: 80px;
@@ -95,6 +285,37 @@
     font-size: 18px;
     margin: 50px 0px ;
 }
+.tipsicons img{
+    width: 50px;
+    margin: 0px 20px 0px -30px;
+}
+.tipsicons{
+    width: 70px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tipsicons:hover{
+    color:rgb(143, 85, 18);
+    font-size: 23px;
+    cursor: pointer;;
+}
+#tipbordereee{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+
 #homeapp{
     width: 360px;
     height: 710px;
@@ -137,7 +358,7 @@
 }
 .backbutton{
     position: absolute;
-    bottom: 747px;
+    bottom: 797px;
     left:250px;
 }
 .tipbutton{
@@ -170,5 +391,62 @@
     position: fixed;
     top
 } */
+#tipborder{
+    width: 300px;
+    height: 30px;
+    background-color:rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+#clothingtipborder{
+    width: 300px;
+    height: 320px;
+    background-color:rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+#tipimagearea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(129, 248, 198);
+}
+#tipimagearea img{
+    width: 40px;
+}
+#tiptitle{
+    font-weight: bold;
+    font-size: 19px;
+    /* width: 100%; */
+    /* margin:10px; */
+}
+#tiptext{
+    font: 17px/30px Georgia;
+    margin-top: 20px;
+    width: 200px;
+}
+#transportationtiptext{
+    font: 17px/30px Georgia;
+    margin-top: 20px;
+    width: 230px;
+}
+#clothingtiptext{
+    font: 17px/30px Georgia;
+    margin-top: 20px;
+    width: 250px;
+}
+
+
+
+
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/

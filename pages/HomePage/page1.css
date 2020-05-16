@@ -40,7 +40,7 @@
 }
 .backbutton{
     position: absolute;
-    bottom: 770px;
+    bottom: 750px;
     left:250px;
 }
 .tipbutton{
@@ -66,10 +66,3 @@
 .third{
     height: 180px;
 }
-/* #hometextbackcolor{
-    background-color: bisque;
-    width: 80%;
-    height: 200px;
-    position: fixed;
-    top
-} */

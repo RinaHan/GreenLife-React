@@ -5036,7 +5036,7 @@ var ResultPage1 = function ResultPage1(_ref) {
 
 /***/ }),
 
-/***/ 19:
+/***/ 20:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FResultPage1&absolutePagePath=%2FUsers%2Frina%2FGreenLife%2Fpages%2FResultPage1%2Findex.js ***!
   \****************************************************************************************************************************************/
@@ -5059,5 +5059,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[19,"static/runtime/webpack.js","styles"]]]);
+},[[20,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=ResultPage1.js.map

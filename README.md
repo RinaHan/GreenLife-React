@@ -21,7 +21,7 @@
 <img height="380" width="Auto" src="https://user-images.githubusercontent.com/55810731/103335942-74e2c580-4a2b-11eb-9fab-aa27cfbb2763.png" />
   
 **-Task-**
--	•	Developed an application that tracks users’ daily carbon footprint using storybook and React
+-	Developed an application that tracks users’ daily carbon footprint using storybook and React
 
   
 **-Tech Stack-**

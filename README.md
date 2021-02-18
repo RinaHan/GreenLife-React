@@ -1,8 +1,7 @@
 # GreenLife2 (React)
 
 
-**-Demo-**
-- [GreenLife demo video is here!](http://bit.ly/2JiejAM)
+
 
 **-Summary-**
 - Academic project | Mar – May 2020

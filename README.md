@@ -3,6 +3,7 @@
 ### `Summary`
 Academic project | Mar - May 2020
 - Front-end Developer: Rina
+- UI Designer: Rina
 
 ### `Demo`
 <img width="300px" src="https://user-images.githubusercontent.com/55810731/113471725-2c181f80-9413-11eb-9e5b-72995f4a4b53.gif" />
